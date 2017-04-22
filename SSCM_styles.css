@@ -1,0 +1,335 @@
+h1, h2, h3, p, ul, ol, a {
+	font-family: 微軟正黑體;
+}
+
+
+p {
+	font-size: 18px;
+	line-height: 30px; 
+	letter-spacing: 1px;
+}
+
+
+h1 {
+	text-align: center;
+	color: #ce3063;
+}
+
+
+body {
+	margin: auto;
+	width: 1020px;
+	min-height: 100%;
+	position: relative; 
+	/*background: url(img/background_try.png) repeat 0 0;*/
+	background: url(img/background.png) repeat 0 0;
+	/*background-color: LightGoldenRodYellow;*/
+}
+
+
+@keyframes shining1 {
+	from {
+		background-position: center 0px;}
+	to {	
+		background-image: url(img/background_p1_2.png);
+		background-size: 920px;
+		background-position: center 0px;}
+}
+
+
+header img {
+	margin: 0px;
+	width: 100%;
+	height: 320px;
+}
+
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+	overflow: hidden;
+    list-style-type: none;
+    background-color: powderblue;
+}
+nav li {
+    float: right;
+	text-align: center;
+}
+nav li a {
+	margin-right: 10px;
+	padding: 20px 20px; /* padding: 1px 10px; 要加在 li a 這裡而不是 li 裡面，且不能 0px 10px;*/
+    display: block;
+	font-size: 20px;
+	color: #ce3063;
+    text-decoration: none;
+}
+nav li a:hover {
+	color: SkyBlue;
+    background-color: LightGoldenRodYellow;
+}
+
+
+#Page1{
+	margin-top: 80px;
+	padding-bottom: 200px;
+	background-image: url(img/background_p1_1.png);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	background-size: 920px;
+	width: 100%;
+	min-height: 464px; /* 有這種用法喔~注意一下吧~ */
+	/*overflow: auto;*/
+	animation: shining1 1.5s infinite;
+}
+.idea {
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	width: 550px;
+	text-align: left;
+}
+.idea h1	{
+	font-size: 45px;
+}
+.idea p {
+	margin-top: 20px;
+	font-size: 20px;
+}
+.span_page1 {
+	border-bottom: dotted 2px darkOrange;
+}
+
+
+#Page2 {
+	margin-top: 80px;
+	padding-bottom: 200px;
+}
+#Page2 h1 {
+	font-size: 45px;
+}
+.heading_left, .heading_right {
+	margin-top: 20px;
+	border-top: double 10px SkyBlue;
+	border-bottom: double 10px SkyBlue;
+	padding: 5px 20px;
+	width: 450px;
+	height: 50px;
+	float: left;
+	text-align: left;
+	font-size: 35px;
+	font-weight: bold;
+	text-decoration: none;
+	color: SteelBlue;
+	background-color: white;
+}
+.heading_left {
+	border-right: double 10px SkyBlue;
+	float: left;
+	text-align: left;
+}
+.heading_right {
+	border-left: double 10px SkyBlue;
+	float: right;
+	text-align: right;
+}
+.heading_left:hover {
+	border-top: dotted 10px darkOrange;
+	border-right: dotted 10px darkOrange;
+	border-bottom: dotted 10px darkOrange;
+	text-align: right;
+}
+.heading_right:hover {
+	border-top: dotted 10px darkOrange;
+	border-left: dotted 10px darkOrange;
+	border-bottom: dotted 10px darkOrange;
+	text-align: left;
+}
+.hr_style {
+	/*padding-top: 80px;
+	padding-bottom: 80px;*/
+	border: 0px;
+	clear: both;
+	background: url(img/hr.png) repeat-x center;
+	background-size: 45px;
+}
+.news {
+	margin: auto;
+	margin-top: 100px;
+	clear: both;
+	width: 650px;
+}
+.news img {
+	border: 0px;
+	width: 650px;
+}
+.news h2 {
+	font-size: 35px;
+	text-align: center;
+	color: #ce3063;
+}
+.news p {
+	text-align: center;
+}
+.span_page2 {
+	border-bottom: dotted 2px darkOrange;
+}
+.steps {
+	margin: 10px;
+	padding: 10px;
+	background-color: Orange;
+}
+.steps ol {
+	line-height: 30px; 	
+}
+.steps a {
+	padding: 5px 6px;
+	border: solid 2px #ce3063;
+	border-radius: 18px;
+	color: LightGoldenRodYellow;
+	background-color: darkOrange;
+	text-decoration: none;
+}
+
+
+#Page3 {
+	margin-top: 80px;
+	padding-bottom: 200px;
+}
+#sequence {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+#sequence a {
+	margin: 6px;
+	border-top: solid 6px SteelBlue;
+	border-bottom: solid 6px SteelBlue;
+	border-right: double 6px SteelBlue;
+	border-left: double 6px SteelBlue;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	background-color: SkyBlue;
+}
+#sequence a:hover {
+	border-radius: 20px;
+	padding: 20px;
+	/*filter: drop-shadow(3px 5px green);*/
+}
+.activity_Block {
+	margin: auto;
+	margin-top: 60px;
+	/*clear: both;*/
+	min-height: 600px;
+}
+.activity_Block img{
+	margin-left: 50px;
+	width: 400px;
+	float: left;
+}
+.activity {
+	margin-top: 40px;
+	margin-right: 40px;
+	width: 500px;
+	float: right;
+}
+.activity h1 {
+	font-size: 35px;
+	text-align: center;
+}
+.activity p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.activity a {
+	padding: 8px 12px;
+	border: solid 2px #ce3063;
+	border-radius: 30px;
+	font-size: 22px;
+	font-weight: bold;
+	color: LightGoldenRodYellow;
+	background-color: darkOrange;
+	text-decoration: none;
+}
+
+
+#Page4 {
+	margin-top: 80px;
+	padding-bottom: 180px;
+	overflow: auto;
+}
+aside {
+	border-left: solid 10px green;
+	border-top: dotted 10px white;
+	padding: 10px;
+	width: 220px;
+	height: 1100px;
+	float: left;
+    background-color: SkyBlue;
+}
+aside h1 {
+	color: MidnightBlue;
+}
+aside ul {
+	margin-left: -20px;
+	list-style-type: none;
+	overflow: hidden;
+	color: MidnightBlue;	
+}
+aside li {
+	margin-top: 5px;	
+	margin-bottom: 5px;	
+}
+aside li a {
+	text-decoration: none;
+	color: MidnightBlue;		
+}
+aside a:hover {
+	border-left: solid 8px white;
+	padding-left: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+article {
+	margin-right: 10px;
+	width: 740px;
+	min-height: 1100px;
+	float: right;
+}
+article p {
+	color: OrangeRed;
+}
+article img {
+	border-radius: 5px;
+	width: 360px;
+}
+article img:hover {
+	width: 360px;
+	filter: drop-shadow(5px 7px Gray);
+}
+.left {
+	height: 380px;
+	float: left;
+	text-align: center;
+}
+.right {
+	height: 380px;
+	float: right;
+	text-align: center;
+}
+
+
+footer {
+	clear: both;
+	width: 1020px;
+	height: 80px;
+	position: absolute;
+    bottom: 0px;
+	text-align: center;
+	color: white;
+	background-color: SteelBlue;
+}
