@@ -165,11 +165,17 @@ hr {
 	margin-top: 50px;
 	border: 5px double #F9DF46;
 	border-radius: 4px;
-	padding: 30px 30px 20px;
+	padding: 30px 30px;
 }
 #message a {
+	display: block;
+	width: 100px;
+	margin: 20px auto 0px;
+	border-radius: 2px;
+	padding: 15px 0px;
+	font-size: bold;
 	color: steelBlue;
-	text-shadow: 1px 0px black;
+	background-color: #F9DF46;
 	text-decoration: none;
 }
 
